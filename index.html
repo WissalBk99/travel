@@ -1,0 +1,203 @@
+<!DOCTYPE html>  
+<html lang = "en"> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>BestTravel</title>
+    <link rel="stylesheet" href = "/voyage.css">
+</head>
+<body>
+    <form action="userinformation.php" method="POST"></form>
+    
+    <header>
+        <div class = "logo">
+            <a href = "index.html"> <span>Best</span> Travel</a>
+        </div>
+        <ul class = "menu">
+            <li><a href = "#">Acceuil</a></li>
+            <li><a href = "#a-propos">à propos</a></li>
+            <li><a href = "#popular-destination">destinations</a></li>
+            <li><a href = "#contact">contact</a></li>
+        </ul>
+        <a href = "#" class="btn-reservation">Réserver Maintenant</a>
+
+        <div class = "responsive-menu"></div>
+    </header>
+    <!-- acceuil section -->
+    <section id="home">
+        <h2>Nous suivre</h2>
+        <h4>Voyagez en Sécurité</h4>
+        <p>Réservez votre billet d'avion sur BestTravel.</p>
+        <p>Pour un bon voyage.</p>
+        <a href="#" class = "btn-reservation home-btn">Réserver Maintenant</a>
+        <div class = "find_trip">
+            <form action = "">
+                <div>
+                    <label>Pays</label>
+                    <input type = "text" name = "pays" placeholder = "Entrez un Pays">
+                </div>
+                <div>
+                    <label>Ville</label>
+                    <input type = "text" name = "ville" placeholder = "Entrez une ville">
+                </div>
+                <div>
+                    <label>Région</label>
+                    <input type = "text" name = "region" placeholder = "Entrez une région">
+                </div>
+                <input type = "submit" value="voir">
+            </form>
+        </div>
+    </section>
+
+    <!-- A propos -->
+    <section id = "a-propos">
+        <h1 class = "title">à propos</h1>
+        <div class = "img-desc">
+            <div class = "right">
+                <img src = "images/Img.jpg" class = "image_bird" style = "opacity: 1; transform: translate(0px, 0px);">
+            </div>
+            <div class = "left">
+                <h3>Nous voyageons pour chercher d'autres états, d'autres vies, d'autres, âmes.</h3>
+                <p>Trouver des billets d’avion pas chers pour votre prochain weekend ou vos prochaines vacances, c’est facile avec <span class = "si" >BestTravel</span> ! Pour partir pas cher, rien de plus simple : il vous suffit d’indiquer dans notre moteur de recherche la ville d’origine, la ville de destination et les dates durant lesquelles vous souhaitez voyager. En cliquant sur « Rechercher Vol », notre comparateur de vol vous proposera une sélection de vols pour les dates sélectionnées. De plus, vous aurez également la possibilité de réserver entre les meilleures offres de vol pas cher parmi les compagnies aériennes low cost et traditionnelles.</p>
+                <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> Lire plus.
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination -->
+    <section id = "popular-destination">
+        <h1 class = "title">destinations populaires</h1>
+        <div class = "content">
+            <!-- Paris -->
+            <div class = "box">
+                <img src = "images/paris.jpg" alt = "">
+                <div class = "content">
+                    <div>
+                        <h4>Paris</h4>
+                        <p>Communément appelé "Ville Lumière".</p>
+                        <p>Paris est l'une des villes les plus visitées au monde.</p>
+                        <a href = "#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Moscou -->
+            <div class = "box">
+                <img src = "images/moscou.jpg" alt = "">
+                <div class = "content">
+                    <div>
+                        <h4>Moscou</h4>
+                        <p>Située dans la partie européenne de la Russie.</p>
+                        <p>Moscou est une ville qui fascine par son histoire et sa culture atypique. </p>
+                        <a href = "#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Miami -->
+            <div class = "box">
+                <img src = "images/miami.jpg" alt = "">
+                <div class = "content">
+                    <div>
+                        <h4>Miami</h4>
+                        <p>Climat tropical, des kilomètres de plages sable doré, une infinité d'activités.</p>
+                        <p>Miami est sans doute la destination idéale pour passer des vacances en famille ou en couple. </p>
+                        <a href = "#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Los-Angeles -->
+             <div class = "box">
+                <img src = "images/los-angeles.jpg" alt = "">
+                <div class = "content">
+                    <div>
+                        <h4>Los-Angeles</h4>
+                        <p>Los Angeles est la deuxième plus grande ville des États-Unis.</p>
+                        <p> C'est une ville dynamique, vivante et cosmopolite où tout est possible.</p>
+                        <a href = "#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Rome -->
+             <div class = "box">
+                <img src = "images/rome.jpg" alt = "">
+                <div class = "content">
+                    <div>
+                        <h4>Rome</h4>
+                        <p>Rome, celle que l'on surnomme la Ville aux 7 collines est une destination qui fascine par son histoire et son patrimoine culturel.</p>
+                        <p> une ville où il fait bon flâner et où les voyageurs aiment se perdre.</p>
+                        <a href = "#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tokio -->
+             <div class="box">
+                <img src = "images/tokio.jpg" alt = "">
+                <div class = "content">
+                    <div>
+                        <h4>Tokio</h4>
+                        <p>Tokyo fascine par sa culture éclectique.</p>
+                        <p> Fans de manga, amoureux de la culture asiatique ou gourmets invétérés ? Peu importe, Tokyo vous enchantera !</p>
+                        <a href = "#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Contact -->
+    <section id="contact">
+        <h1 class="title">Contact</h1>
+        <form action="">
+            <div class="left-right">
+                <div class="left">
+                    <label>Nom Complet</label>
+                    <input type="text" name="texte" placeholder="Entrer votre nom">
+                    <label>Objet</label>
+                    <input type="text" name="gmail" placeholder="Enter votre object">
+                    <label>Email</label>
+                    <input type="text" name="message" placeholder="Ecrire votre gmail">
+                    <label>Message</label>
+                    <textarea name = "" id = "" cols="30" rows = "10"></textarea>
+                </div>
+                <div class="right">
+                    <label>Numéro</label>
+                    <input type="text" name="num" placeholder="Entrer votre numéro">
+                    <label>Date</label>
+                    <input type="text" name="date" placeholder="Entrer la date">
+                    <label>Autres Details</label>
+                    <input type="text" name="adresse" placeholder="Entrer plus détails">
+                    <label>Adresse</label>
+                    <iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1647531560805!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+            </div>
+            <button>
+                Envoyer.
+            </button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p> Réalisé par <span>BestTravel</span> | Tous les droits sont réservés.</p>
+    </footer>
+
+
+    <script>
+        var toggle_menu = document.querySelector('.responsive-menu');
+        var menu = document.querySelector('.menu');
+        toggle_menu.onclick = function(){
+             toggle_menu.classList.toggle('active');
+             menu.classList.toggle('responsive')
+        }
+    </script>
+
+
+</body>
+</html> 
